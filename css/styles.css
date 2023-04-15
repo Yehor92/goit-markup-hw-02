@@ -1,0 +1,97 @@
+body {
+  font-family: "robotto", sans-serif;
+}
+.link {
+  text-decoration: none;
+}
+.link-logo {
+  text-decoration: none;
+}
+/**
+  |============================
+  | Header
+  |============================
+*/
+.header-nav .link-logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  color: #2e2f42;
+}
+.web {
+  font-family: "Raleway";
+  font-weight: 800;
+  color: #4d5ae5;
+}
+.nav-list .link {
+  font-weight: 500;
+  color: #2e2f42;
+}
+.nav-list .link:active,
+.nav-list .link:hover,
+.nav-list .link:focus {
+  text-decoration: underline;
+  color: #404bbf;
+}
+.header-address .link {
+  font-style: normal;
+  color: #434455;
+}
+
+.item .link:active,
+.item .link:hover,
+.item .link:focus {
+  color: #404bbf;
+}
+/**
+  |============================
+  | Main
+  |============================
+*/
+/* hero-section */
+.hero-section .title {
+  background: #2e2f42;
+  color: #ffffff;
+}
+.btn {
+  background: #4d5ae5;
+  color: #ffffff;
+}
+.btn:hover {
+  background: #404bbf;
+}
+/* Why we */
+.why-we .title {
+  color: #2e2f42;
+}
+.subtitle {
+  color: #2e2f42;
+}
+.text {
+  color: #434455;
+}
+/* section */
+.section .title {
+  color: #2e2f42;
+}
+/* team */
+.team .title {
+  color: #2e2f42;
+}
+.name {
+  color: #2e2f42;
+}
+.post {
+  color: #434455;
+}
+/* footer */
+.footer {
+  background: #2e2f42;
+}
+.footer .link-logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  color: #f4f4fd;
+}
+.text-footer {
+  color: #f4f4fd;
+}
