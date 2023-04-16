@@ -27,7 +27,7 @@ body {
 .link {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1.17;
   font-weight: 800;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -37,13 +37,13 @@ body {
 .logo-part {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1.17;
   font-weight: 800;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
 }
-.nav-item .link-desc {
+.nav-item .link {
   font-weight: 500;
   color: #2e2f42;
 }
