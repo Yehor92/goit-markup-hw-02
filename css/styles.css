@@ -104,19 +104,23 @@ body {
   background: #404bbf;
 }
 /* Why we */
-.why-we .title {
-  color: #2e2f42;
+.list-section {
+  list-style: none;
 }
 .subtitle {
-  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
 }
 .text {
-  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
 }
 /* section */
-.section .title {
-  color: #2e2f42;
-}
 /* team */
 .team .title {
   color: #2e2f42;
