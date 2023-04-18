@@ -268,7 +268,7 @@ body {
 
 /* Main */
 
-.list-button {
+.list-filters {
   list-style: none;
 }
 .button {
@@ -286,7 +286,25 @@ body {
   color: #ffffff;
   background-color: #404bbf;
 }
-
+.list-app {
+  list-style: none;
+}
+.link-p {
+  text-decoration: none;
+}
+.subject-concep {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+.text-concep {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
 /* Footer */
 
 .footer-section {
