@@ -37,7 +37,7 @@ body {
   font-weight: 800;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--color-grey);
 }
 .list-nav-item {
   list-style: none;
@@ -53,8 +53,7 @@ body {
 .link-item:active,
 .link-item:hover,
 .link-item:focus {
-  text-decoration: underline;
-  color: #404bbf;
+  color: var(--color-ocean);
 }
 .header-address {
   font-style: normal;
@@ -72,8 +71,7 @@ body {
 .link-addres-item:active,
 .link-addres-item:hover,
 .link-addres-item:focus {
-  text-decoration: underline;
-  color: #404bbf;
+  color: var(--color-ocean);
 }
 
 /* Main */
@@ -102,7 +100,7 @@ body {
 }
 .btn:hover,
 .btn:focus {
-  background: #404bbf;
+  background: var(--color-ocean);
 }
 
 /* Why we */
@@ -141,7 +139,7 @@ body {
 /* Team */
 
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--color-cloud);
 }
 .title-team {
   font-size: 36px;
@@ -155,7 +153,7 @@ body {
   list-style: none;
 }
 .card {
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 .name {
   font-weight: 500;
@@ -174,7 +172,7 @@ body {
 /* Footer */
 
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--color-navy-blue);
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -227,7 +225,7 @@ body {
   font-weight: 800;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--color-grey);
 }
 .list-portfolio {
   list-style: none;
@@ -243,8 +241,7 @@ body {
 .portfolio-item:active,
 .portfolio-item:hover,
 .portfolio-item:focus {
-  text-decoration: underline;
-  color: #404bbf;
+  color: var(--color-ocean);
 }
 .address {
   font-style: normal;
@@ -262,8 +259,7 @@ body {
 .link-list-item:active,
 .link-list-item:hover,
 .link-list-item:focus {
-  text-decoration: underline;
-  color: #404bbf;
+  color: var(--color-ocean);
 }
 
 /* Main */
@@ -283,8 +279,8 @@ body {
 }
 .button:hover,
 .button:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--color-white);
+  background-color: var(--color-ocean);
 }
 .list-app {
   list-style: none;
@@ -308,7 +304,7 @@ body {
 /* Footer */
 
 .footer-section {
-  background-color: #2e2f42;
+  background-color: var(--color-grey);
 }
 .link-logo-footer {
   font-family: "Raleway", sans-serif;
